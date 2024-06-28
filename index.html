@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsyaAirGallery</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcat icon" href="https://cdn-icons-png.flaticon.com/128/3972/3972615.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1 class="fig">AsyaAir Bloger and Photographer</h1>
+        <p class="fig">
+            <img class="bloger" src="./assets/images/photo_bloger.png" alt="bloger">
+        </p>
+    </header>
+    <main>
+        <h2 class="fig">My photo gallery from Iceland</h2>
+        <div class="wrapper">
+            <div class="left_button_wrapper">
+                <button class="gradient-button" onclick="previousImage()">Previous</button>
+            </div>
+            <div class="gallery">
+                <div class="gallery_pic">
+                    <img class="active" src="./assets/images/animals.jpg" alt="animals-picture"> 
+                    <img src="./assets/images/plants.jpg" alt="plants-picture">
+                    <img src="./assets/images/landscape.jpg" alt="landscape-picture">
+                    <img src="./assets/images/cities.jpg" alt="cities-picture">
+                    <img src="./assets/images/sea.jpg" alt="sea-picture">
+                    <img src="./assets/images/sky.jpg" alt="sky-picture">
+                </div>
+            </div>
+            <div class="right_button_wrapper">
+                <button class="gradient-button" onclick="nextImage()">Next</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="fig">TheWorldAroundAndInsideUs Inc. All rights reserved.</p>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
